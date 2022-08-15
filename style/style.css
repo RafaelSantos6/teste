@@ -3,29 +3,9 @@ body {
     color: white;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.container h1, a {
-    width: 99%;
+.container h1, label, a {
     text-decoration: none;
+    color: white;
 }
 
-form {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: min-content;
-}
 
-.style-input{
-    margin-bottom: 10px;
-    flex-direction: column;
-    width: 200px;
-}
-form button {
-    margin-bottom: 50px;
-}
